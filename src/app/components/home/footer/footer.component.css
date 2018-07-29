@@ -1,0 +1,31 @@
+footer {
+    background: linear-gradient( 90deg, #C1539E, #82115E);
+    width: 100vw;
+}
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.social-link {
+    display: flex;
+    width: 10%;
+    flex-direction: row;
+    margin: 50px 0;
+}
+
+.social-link i, .up i {
+    color: #C1539E;
+    background: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+.up {
+    display: flex;
+    margin: 0px auto;
+    justify-content: center;
+}
+
+.up i {
+    font-size: 50px;
+}

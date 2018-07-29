@@ -1,0 +1,11 @@
+.brand {
+    background: linear-gradient( 90deg, #C1539E, #82115E);
+    width: 100vw;
+}
+
+.brand img {
+    width: 100px;
+    background: black;
+    mix-blend-mode: screen;
+    float: right;
+}
