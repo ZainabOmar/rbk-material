@@ -1,5 +1,6 @@
 .counter {
     min-height: 200px;
+    overflow: hidden;
     background: linear-gradient(#cc2b5e, #fc6767);
     background-attachment: fixed;
 }

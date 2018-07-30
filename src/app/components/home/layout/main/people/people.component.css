@@ -1,5 +1,5 @@
 .card {
-    background: linear-gradient(#cc2b5e, #753a88);
+    background: linear-gradient(#ff4c7c, #993a44);
     background-attachment: fixed;
     margin: 20px;
 }
@@ -13,4 +13,13 @@
     margin: 0% 100px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+@media(max-width: 920px) {
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
 }

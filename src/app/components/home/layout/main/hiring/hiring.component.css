@@ -1,9 +1,13 @@
 .hire {
     max-width: 100px;
-    margin: 50px auto 200px auto;
     height: 100px;
+    margin: 2% ;
 }
 
 .imgs {
+    overflow: hidden;
+    justify-content: center;
     display: flex;
+
 }
+

@@ -16,3 +16,7 @@ hr {
     background: darkgrey;
     margin: 0px;
 }
+
+.cards-why {
+    overflow: hidden;
+}
