@@ -35,3 +35,34 @@ a:hover {
     background-color: #B51783;
     height: 3px;
 }
+
+.bg-rbk {
+    background-color: #B51783;
+}
+
+
+.text-rbk {
+    color: #B51783;
+}
+
+.btn-primary {
+    background-color: #B51783;
+    border: none;
+    padding: 5px 40px;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #FA05AF;
+
+}
+
+.btn-primary i {
+    color: white;
+    display: none;
+}
+    
+
+.btn-primary:hover i {
+    display: inline;
+}

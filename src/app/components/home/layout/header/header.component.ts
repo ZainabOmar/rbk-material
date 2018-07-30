@@ -9,7 +9,14 @@ import { Subscription } from 'rxjs';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+
   @Input() bg = 'bg1';
+  @Input() header = {
+    text: '',
+    img: '',
+    title: ''
+  };
+
   constructor(private data: DataService) { }
 
   ngOnInit() {
