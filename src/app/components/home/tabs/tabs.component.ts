@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {FormControl} from '@angular/forms';
+import { DataService } from '../../../data.service';
 
 
 @Component({
@@ -9,9 +9,10 @@ import {FormControl} from '@angular/forms';
 })
 export class TabsComponent implements OnInit {
 
-  constructor() { }
+  constructor(private data: DataService) { }
 
   ngOnInit() {
   }
+
 
 }

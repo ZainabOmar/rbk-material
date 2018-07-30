@@ -1,5 +1,5 @@
 <nav class="container-fluid">
-  <mat-tab-group>
+  <mat-tab-group (click)="setTab($event)">
     <mat-tab>
       <ng-template mat-tab-label class="tab">
         <i class="fas fa-home"></i>
@@ -13,28 +13,28 @@
         <i class="fas fa-sign"></i>
         Admission
       </ng-template>
-      Content 1
+      <app-admission></app-admission>
     </mat-tab>
     <mat-tab>
       <ng-template mat-tab-label class="tab">
         <i class="fas fa-calendar-alt"></i>
         Program
       </ng-template>
-      Content 1
+      <app-program></app-program>
     </mat-tab>
     <mat-tab>
       <ng-template mat-tab-label class="tab">
         <i class="fas fa-users"></i>
         Outcomes
       </ng-template>
-      Content 1
+      <app-outcomes></app-outcomes>
     </mat-tab>
     <mat-tab>
       <ng-template mat-tab-label class="tab">
         <i class="fas fa-desktop"></i>
         Curriculum
       </ng-template>
-      Content 1
+      <app-curriculum></app-curriculum>
     </mat-tab>
 
   </mat-tab-group>

@@ -9,3 +9,19 @@
     mix-blend-mode: screen;
     float: right;
 }
+
+
+
+.nav-arrow i {
+    font-size: 20px;
+    color: #82115E;
+    background: white;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 0 20px;
+}
+
+.nav-arrow i:hover {
+    background-color: #82115E;
+    color: white;
+}

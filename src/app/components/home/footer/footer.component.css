@@ -1,5 +1,5 @@
 footer {
-    background: linear-gradient( 90deg, #C1539E, #82115E);
+    background: linear-gradient(#C1539E, #82115E);
     width: 100vw;
 }
 .social {
@@ -20,12 +20,9 @@ footer {
     border-radius: 50%;
     padding: 10px;
 }
-.up {
-    display: flex;
-    margin: 0px auto;
-    justify-content: center;
-}
 
-.up i {
-    font-size: 50px;
+.social-link i:hover, .up i:hover {
+    color: white;
+    background: #FA05AF;
+    box-shadow: 0px 5px 50px pink;
 }

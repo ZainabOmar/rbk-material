@@ -1,0 +1,45 @@
+.hero {
+    width: 100%;
+    height: 500px;
+}
+
+
+.bg1 {
+    background: url(../../../../../assets/RBK/bg/20180216_tent_ARLT-003.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.bg2 {
+    background: url(../../../../../assets/RBK/bg/20180216_tent_ARLT-004.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.bg3 {
+    background: url(../../../../../assets/RBK/bg/20180216_tent_ARLT-008.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.bg4 {
+    background: url(../../../../../assets/RBK/bg/curr.JPG);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.bg5 {
+    background: url(../../../../../assets/RBK/bg/nada.JPG);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}

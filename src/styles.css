@@ -12,7 +12,9 @@ i {
     margin: 10px;
     color: #999999;
 }
-
+i:active {
+    color: #B51783;
+}
 
 .mat-tab-label-content:hover {
     color: #B51783;
@@ -28,4 +30,8 @@ i {
 
 a:hover {
     text-decoration: none;
+}
+.mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar {
+    background-color: #B51783;
+    height: 3px;
 }
