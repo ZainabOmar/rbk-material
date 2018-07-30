@@ -1,21 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
-@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "~@angular/material/prebuilt-themes/pink-bluegrey.css";
 @import "~bootstrap/dist/css/bootstrap.min.css";
 @import "./assets/fontawesome/css/all.min.css";
 
 body {
     overflow-x: hidden;
+    background: #222;
+    margin: 0%;
+    padding: 0;
 }
 
 i {
     font-size: 25px;
     margin: 10px;
-    color: #999999;
+    color: #fff;
 }
 i:active {
     color: #B51783;
 }
 
+.mat-tab-label-content {
+    font-size: 18px;
+}
 .mat-tab-label-content:hover {
     color: #B51783;
 }
@@ -26,11 +32,15 @@ i:active {
 
 .mat-tab-labels {
     justify-content: center;
+    border: none;
+    width: 101%;
+    background: rgba(0, 0, 0, .5);
 }
 
 a:hover {
     text-decoration: none;
 }
+
 .mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar {
     background-color: #B51783;
     height: 3px;
@@ -65,4 +75,16 @@ a:hover {
 
 .btn-primary:hover i {
     display: inline;
+}
+
+.text-15 {
+    font-size: 15px;
+}
+
+.mat-card-content, .mat-card-subtitle {
+    font-size: 20px;
+}
+
+.mat-card-header .mat-card-title {
+    font-size: 24px;
 }

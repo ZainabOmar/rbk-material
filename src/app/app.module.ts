@@ -16,6 +16,7 @@ import { AdmissionComponent } from './components/home/layout/admission/admission
 import { OutcomesComponent } from './components/home/layout/outcomes/outcomes.component';
 import { ProgramComponent } from './components/home/layout/program/program.component';
 import { CurriculumComponent } from './components/home/layout/curriculum/curriculum.component';
+import { WhatComponent } from './components/home/layout/main/what/what.component';
 
 import { DataService } from './data.service';
 
@@ -32,6 +33,7 @@ import { DataService } from './data.service';
     OutcomesComponent,
     ProgramComponent,
     CurriculumComponent,
+    WhatComponent,
   ],
   imports: [
     BrowserModule,

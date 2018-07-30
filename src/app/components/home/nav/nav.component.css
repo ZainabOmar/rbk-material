@@ -1,11 +1,10 @@
 .brand {
-    background: linear-gradient( 90deg, #C1539E, #82115E);
+    background: rgba(0, 0, 0, .5);
     width: 100vw;
 }
 
 .brand img {
     width: 100px;
-    background: black;
     mix-blend-mode: screen;
     float: right;
 }
@@ -22,6 +21,6 @@
 }
 
 .nav-arrow i:hover {
-    background-color: #82115E;
+    background-color: #ff0379;
     color: white;
 }
