@@ -21,6 +21,7 @@ import { WhatComponent } from './components/home/layout/main/what/what.component
 import { WhyComponent } from './components/home/layout/main/why/why.component';
 import { CounterComponent } from './components/home/layout/main/counter/counter.component';
 import { PeopleComponent } from './components/home/layout/main/people/people.component';
+import { HiringComponent } from './components/home/layout/main/hiring/hiring.component';
 
 
 @NgModule({
@@ -40,6 +41,7 @@ import { PeopleComponent } from './components/home/layout/main/people/people.com
     WhyComponent,
     CounterComponent,
     PeopleComponent,
+    HiringComponent,
   ],
   imports: [
     BrowserModule,
