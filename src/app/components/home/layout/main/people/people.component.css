@@ -1,0 +1,16 @@
+.card {
+    background: linear-gradient(#cc2b5e, #753a88);
+    background-attachment: fixed;
+    margin: 20px;
+}
+
+.header-image {
+    background-image: url('../../../../../../assets/RBK/esraa.JPG');
+    background-size: cover;
+}
+
+.cards {
+    margin: 0% 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}

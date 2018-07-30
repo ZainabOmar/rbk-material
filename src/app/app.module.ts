@@ -20,6 +20,7 @@ import { CurriculumComponent } from './components/home/layout/curriculum/curricu
 import { WhatComponent } from './components/home/layout/main/what/what.component';
 import { WhyComponent } from './components/home/layout/main/why/why.component';
 import { CounterComponent } from './components/home/layout/main/counter/counter.component';
+import { PeopleComponent } from './components/home/layout/main/people/people.component';
 
 
 @NgModule({
@@ -38,6 +39,7 @@ import { CounterComponent } from './components/home/layout/main/counter/counter.
     WhatComponent,
     WhyComponent,
     CounterComponent,
+    PeopleComponent,
   ],
   imports: [
     BrowserModule,
