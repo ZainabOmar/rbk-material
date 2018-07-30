@@ -1,0 +1,18 @@
+.card-content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.card-text {
+    margin: 20px;
+    font-size: 20px;
+}
+
+.m-card {
+    margin: 20px;
+}
+
+hr {
+    background: darkgrey;
+    margin: 0px;
+}

@@ -88,3 +88,18 @@ a:hover {
 .mat-card-header .mat-card-title {
     font-size: 24px;
 }
+
+.head {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.head h1 {
+    color: white;
+}
+
+.head span {
+    color: #B51783;
+    background: white;
+    padding: 0px 10px;
+}

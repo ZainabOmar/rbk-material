@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import { DataService } from './data.service';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
@@ -17,8 +18,8 @@ import { OutcomesComponent } from './components/home/layout/outcomes/outcomes.co
 import { ProgramComponent } from './components/home/layout/program/program.component';
 import { CurriculumComponent } from './components/home/layout/curriculum/curriculum.component';
 import { WhatComponent } from './components/home/layout/main/what/what.component';
+import { WhyComponent } from './components/home/layout/main/why/why.component';
 
-import { DataService } from './data.service';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { DataService } from './data.service';
     ProgramComponent,
     CurriculumComponent,
     WhatComponent,
+    WhyComponent,
   ],
   imports: [
     BrowserModule,
