@@ -19,6 +19,7 @@ import { ProgramComponent } from './components/home/layout/program/program.compo
 import { CurriculumComponent } from './components/home/layout/curriculum/curriculum.component';
 import { WhatComponent } from './components/home/layout/main/what/what.component';
 import { WhyComponent } from './components/home/layout/main/why/why.component';
+import { CounterComponent } from './components/home/layout/main/counter/counter.component';
 
 
 @NgModule({
@@ -36,6 +37,7 @@ import { WhyComponent } from './components/home/layout/main/why/why.component';
     CurriculumComponent,
     WhatComponent,
     WhyComponent,
+    CounterComponent,
   ],
   imports: [
     BrowserModule,
