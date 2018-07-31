@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { WOW } from 'wowjs';
 
 @Component({
   selector: 'app-admission',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AdmissionComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+   }
 
   ngOnInit() {
+    console.log();
+
+
   }
 
 }

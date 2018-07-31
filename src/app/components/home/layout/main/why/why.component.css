@@ -20,3 +20,9 @@ hr {
 .cards-why {
     overflow: hidden;
 }
+
+@media(max-width: 768px) {
+    .card-content {
+        grid-template-columns: 100%;
+    }
+}

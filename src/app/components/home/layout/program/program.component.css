@@ -1,0 +1,28 @@
+.card-img {
+    max-width: 400px;
+}
+
+.container {
+    overflow: hidden;
+}
+.m-card {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 20px;
+    padding: 20px;
+}
+
+.card-text {
+    padding: 20px;
+}
+
+.head {
+    margin: 10%;
+}
+
+
+@media(max-width: 768px) {
+    .m-card {
+        grid-template-columns: 100%;
+    }
+}
