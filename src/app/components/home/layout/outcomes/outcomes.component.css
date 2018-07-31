@@ -1,0 +1,16 @@
+.counter {
+    min-height: 200px;
+    overflow: hidden;
+    background: linear-gradient(#cc2b5e, #fc6767);
+    background-attachment: fixed;
+}
+
+.numbers {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+h5 {
+    font-size: 14px;
+}
+

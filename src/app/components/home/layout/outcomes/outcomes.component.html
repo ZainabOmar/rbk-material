@@ -1,1 +1,70 @@
 <app-header [bg]="'bg4'" [header]="{title: 'Outcomes', text: 'These are our results, which we are proud of!'}"></app-header>
+
+
+<!-- counter -->
+<section class="counter">
+    <div class="container">
+        <div class="numbers p-3">
+
+            <div class="num text-white text-center">
+                <h3 class="hire wow animated rotateIn slower delay-2s">97%</h3>
+                <h5 class="wow animated slower flipInX">Hiring rate</h5>
+                <div>
+                    <i class="fa fa-user-tie"></i>
+                </div>
+            </div>
+
+            <div class="num text-white text-center">
+                <h3 class="hire wow animated rotateIn slower delay-3s">803JD</h3>
+                <h5 class="wow animated slower flipInX">Average salary</h5>
+                <div>
+                    <i class="fa fa-money-bill-alt"></i>
+                </div>
+            </div>
+
+            <div class="num text-white text-center">
+                <h3 class="hire wow animated rotateIn slower delay-4s">2.5 Months</h3>
+                <h5 class="wow animated slower flipInX">Average hiring time</h5>
+                <div>
+                    <i class="fa fa-calendar"></i>
+                </div>
+            </div>
+
+            <div class="num text-white text-center">
+                <h3 class="hire wow animated rotateIn slower delay-5s"> 25 </h3>
+                <h5 class="wow animated slower flipInX"> Average graduates Age </h5>
+                <div>
+                    <i class="fa fa-user"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<nav class="container-fluid" id="header">
+    <mat-tab-group>
+        <mat-tab>
+            <ng-template mat-tab-label class="tab">
+                <i class="fas fa-users"></i>
+                Who are our graduates ?
+            </ng-template>
+            <app-who></app-who>
+        </mat-tab>
+
+        <mat-tab>
+            <ng-template mat-tab-label class="tab">
+                <i class="fas fa-user-md"></i>
+                What they are working ?
+            </ng-template>
+            <app-where></app-where>
+        </mat-tab>
+
+        <mat-tab>
+            <ng-template mat-tab-label class="tab">
+                <i class="fas fa-location-arrow"></i>
+                Where They Are ?
+            </ng-template>
+            <app-work></app-work>
+        </mat-tab>
+    </mat-tab-group>
+</nav>

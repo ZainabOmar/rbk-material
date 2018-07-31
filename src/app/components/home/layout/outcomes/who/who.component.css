@@ -1,0 +1,23 @@
+.mat-card-content {
+    margin: 25px;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.mat-card {
+    margin: 25px;
+}
+
+.mat-card-content b {
+    color: #ff2b5e;
+}
+
+.main-card-img {
+    max-width: 100%;
+}
+
+@media(max-width: 768px) {
+    .mat-card-content {
+        grid-template-columns: 1fr;
+    }
+}

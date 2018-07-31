@@ -63,6 +63,14 @@
     
 }
 
+.bg6 {
+    background: url(../../../../../assets/RBK/company.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
 .header-image {
     max-width: 200px;
 }

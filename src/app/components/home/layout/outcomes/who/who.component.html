@@ -1,0 +1,56 @@
+<mat-card class="m-4">
+  <div class="head">
+    <h1 class="text-secondary">Who are our
+      <span>Graduates</span>
+    </h1>
+  </div>
+
+  <ul class="list-inline">
+    <li class="list-inline-item font-weight-bold text-uppercase text-rbk">
+      <i class="fa fa-calendar"></i> To date, we have graduated 4 Cohorts (classes)
+    </li>
+    <li class="list-inline-item float-right font-weight-bold">
+      <i class="fa fa-map-marker"></i> Amman Jo
+    </li>
+  </ul>
+</mat-card>
+
+<div class="container">
+
+  <mat-card>
+      <img src="https://source.unsplash.com/random" alt="" class="main-card-img">
+      <p class="p-3">
+        Some graduates came to us with no university degrees, and some did not even finish high school. Some didn’t know they had
+        a passion for coding, but they did. Most came here without a positive outlook on the future, and now they do. It’s
+        a life changing experience because you’re not just taught how to get a job, you’re taught how to grow and keep increasing
+        your income as you become the leader you’ve always wanted to be.
+      </p>
+  </mat-card>
+
+  <div class="head">
+    <h4 class="text-white">Check out the
+      <span> success stories </span>
+      this could be you in 4 months.
+    </h4>
+  </div>
+
+  <div *ngFor="let grad of alumni">
+    <mat-card class="shadow animated slower infinite">
+      <mat-card-content class="content">
+        <div>
+          <img src="{{ grad.image }}" alt="" class="rounded">
+          <h6 class="m-2 text-align">{{ grad.name }}</h6>
+        </div>
+        <div>
+          <p>
+            <i class="fa fa-calendar"></i>
+            <b>Graduated</b> {{ grad.day }}
+          </p>
+          <p>
+            {{ grad.was }}
+          </p>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

@@ -58,6 +58,7 @@ export class ProgramComponent implements OnInit {
       text: 'The cost of the program is 5,700 JoD and is payable upon final approval for admission to the program. Although we offer scholarships as they become available, we also have understandings with financial institutions that are willing to grant you a loan which you can pay back comfortably when you start your first job. If we recommend you, your loan is guaranteed.'
     }
   ];
+
   constructor() {}
 
   ngOnInit() {}
