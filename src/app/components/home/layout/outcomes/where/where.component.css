@@ -1,0 +1,12 @@
+.hiring-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background: white;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+img {
+    width: 100px;
+    margin: 10%;
+}
