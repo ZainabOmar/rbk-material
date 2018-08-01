@@ -92,6 +92,7 @@ a:hover {
   font-size: 24px;
 }
 
+
 .head {
   text-align: center;
   margin-top: 70px;
@@ -99,12 +100,12 @@ a:hover {
 
 .head h1 {
   color: white;
+  font: 100;
 }
 
 .head span {
   color: #FF3383;
-  background: white;
-  padding: 0px 10px;
+  font-weight: bolder;
 }
 
 .border-r {
