@@ -5,10 +5,6 @@
     background-attachment: fixed;
 }
 
-.numbers {
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-}
 
 h5 {
     font-size: 14px;

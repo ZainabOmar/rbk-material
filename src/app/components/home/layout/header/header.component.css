@@ -71,6 +71,18 @@
     
 }
 
+.bg7 {
+    background: url(../../../../../assets/RBK/cohort3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
 .header-image {
     max-width: 200px;
+}
+
+header {
+    overflow: hidden;
 }

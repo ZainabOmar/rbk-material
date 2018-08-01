@@ -25,7 +25,7 @@ import { HiringComponent } from './components/home/layout/main/hiring/hiring.com
 import { PartnersComponent } from './components/home/layout/partners/partners.component';
 import { WhoComponent } from './components/home/layout/outcomes/who/who.component';
 import { WhereComponent } from './components/home/layout/outcomes/where/where.component';
-import { WorkComponent } from './components/home/layout/outcomes/work/work.component';
+import { VolunteerComponent } from './components/home/layout/volunteer/volunteer.component';
 
 
 @NgModule({
@@ -49,7 +49,7 @@ import { WorkComponent } from './components/home/layout/outcomes/work/work.compo
     PartnersComponent,
     WhoComponent,
     WhereComponent,
-    WorkComponent,
+    VolunteerComponent,
   ],
   imports: [
     BrowserModule,
