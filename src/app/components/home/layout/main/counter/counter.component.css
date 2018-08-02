@@ -1,17 +1,40 @@
 .counter {
     min-height: 200px;
     overflow: hidden;
-    background: linear-gradient(#cc2b5e, #fc6767);
+    background: linear-gradient(#ee0979, #FF4B2B);
     background-attachment: fixed;
 }
 
 .numbers {
+    padding: 5% 0%;
     display: grid;
+    margin: 0% 15%;
     grid-template-columns: 25% 25% 25% 25%;
+    justify-content: center;
+}
+
+.num {
+    padding: 20%;
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    margin: 30px;
+}
+
+i {
+    font-size: 2em;
 }
 
 h5 {
     font-size: 14px;
+}
+
+@media(max-width: 1200px) {
+    .numbers {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
 }
 
 @media(max-width: 768px) {
@@ -20,4 +43,3 @@ h5 {
         grid-template-columns: 100%;
     }
 }
-
