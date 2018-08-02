@@ -1,28 +1,3 @@
-.card {
-    background: linear-gradient(#ff4c7c, #993a44);
-    background-attachment: fixed;
-    margin: 10px;
-}
-
-.mat-card-image {
-    background-image: url('../../../../../../assets/RBK/esraa.JPG');
-    background-size: cover;
-    background: white;
-}
-
-.cards {
-    display: grid;
-    overflow: hidden;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-
-
-
-@media(max-width: 920px) {
-
-    .cards {
-        grid-template-columns: 1fr;
-        margin: 20px 0;
-    }
+.people {
+    margin-top: 15%;
 }

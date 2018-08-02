@@ -3,18 +3,22 @@
 @import "~@angular/material/prebuilt-themes/pink-bluegrey.css";
 @import "~bootstrap/dist/css/bootstrap.min.css";
 @import "./assets/fontawesome/css/all.min.css";
+@import "./assets/css/julia.css";
 @import url('https://fonts.googleapis.com/css?family=Karla|Maven+Pro|Quicksand|Varela+Round');
+
+
 body {
-  /* font-family: 'Quicksand', sans-serif; */
-  /* font-family: 'Karla', sans-serif; */
   font-family: 'Varela Round', 'Karla', 'Quicksand', 'Maven Pro' !important;
-  /* font-family: 'Maven Pro', sans-serif; */
   overflow-x: hidden;
-  background: linear-gradient(#000, #fff);
+  filter: opacity(90%);
   margin: 0%;
   padding: 0;
+  background: linear-gradient(#1E303B , #fc6767);
 }
 
+img {
+  border-radius: 15px !important;
+}
 h1, h2, h3, h4, h5, h6, p, button, span {
   font-family: 'Varela Round', 'Karla', 'Quicksand', 'Maven Pro' !important;
 }
@@ -22,11 +26,11 @@ h1, h2, h3, h4, h5, h6, p, button, span {
 i {
   font-size: 25px;
   margin: 10px;
-  color: #fff;
+  color: #efefef;
 }
 
 i:active {
-  color: #FF3383;
+  color: #fc6767;
 }
 
 .mat-tab-body-content {
@@ -39,11 +43,11 @@ i:active {
 }
 
 .mat-tab-label-content:hover {
-  color: #FF3383;
+  color: #fc6767;
 }
 
 .mat-tab-label-content:hover i {
-  color: #FF3383;
+  color: #fc6767;
 }
 
 
@@ -51,7 +55,7 @@ i:active {
   justify-content: center;
   border: none;
   width: 99%;
-  background: rgba(0, 0, 0, .1);
+  background: rgba(49, 19, 0, .7);
 }
 
 a:hover {
@@ -60,12 +64,12 @@ a:hover {
 
 .mat-tab-group.mat-primary .mat-ink-bar,
 .mat-tab-nav-bar.mat-primary .mat-ink-bar {
-  background-color: #FF3383;
+  background-color: #fc6767;
   height: 3px;
 }
 
 .bg-rbk {
-  background-color: #FF3383;
+  background-color: #fc6767;
 }
 
 .bg-black {
@@ -73,18 +77,29 @@ a:hover {
 }
 
 .text-rbk {
-  color: #FF3383;
+  color: #fc6767;
+}
+
+.bg-divider {
+  height: 350px;
+  background: url(https://source.unsplash.com/random);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: -38px -40px;
+  filter: brightness(60%);
+  background-position-y: 3%;
 }
 
 .btn-primary {
-  background-color: #FF3383;
+  background-color: #fc6767;
   border: none;
   padding: 5px 40px;
   border: none;
 }
 
 .btn-primary:hover {
-  background-color: #FA05AF;
+  background-color: #E5529C;
 }
 
 .btn-primary i {
@@ -100,10 +115,22 @@ a:hover {
   font-size: 15px;
 }
 
+.mat-card {
+  border-radius: 15px !important;
+}
+
 .mat-card-content,
 .mat-card-subtitle {
   font-size: 20px;
   overflow: hidden;
+}
+
+.mat-card {
+  height: 100%;
+}
+
+.card-img {
+  min-height: 200px;
 }
 
 .mat-card-header .mat-card-title {
@@ -121,16 +148,16 @@ a:hover {
 }
 
 .head span {
-  color: #FF3383;
+  color: #fc6767;
   font-weight: bolder;
 }
 
 .border-r {
-  border-right: 8px solid #ff3383;
+  border-right: 4px solid #fc6767;
 }
 
 .border-l {
-  border-left: 8px solid #ff3383;
+  border-left: 4px solid #fc6767;
 }
 
 /* animations */

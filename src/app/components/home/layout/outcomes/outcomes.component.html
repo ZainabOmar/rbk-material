@@ -1,23 +1,58 @@
 <app-header [bg]="'bg4'" [header]="{title: 'Outcomes', text: 'These are our results, which we are proud of!'}"></app-header>
 
+<div class="container">
 
-<nav class="container-fluid mt-5" id="header">
-    <mat-tab-group>
-        <mat-tab>
-            <ng-template mat-tab-label class="tab">
-                <i class="fas fa-users"></i>
-                Who are our graduates ?
-            </ng-template>
-            <app-who></app-who>
-        </mat-tab>
+    <mat-card class="m-card border-r wow animated slow slideInRight">
+        <mat-card-header>
+            <mat-card-title>
+                Who Are Our Graduates ?
+            </mat-card-title>
+        </mat-card-header>
+        <hr>
+        <mat-card-content class="card-content">
+            <p class="card-text">
+                To date, we have graduated 4 Cohorts (classes)</p>
+        </mat-card-content>
+    </mat-card>
 
-        <mat-tab>
-            <ng-template mat-tab-label class="tab">
-                <i class="fas fa-user-md"></i>
-                What they are working ?
-            </ng-template>
-            <app-where></app-where>
-        </mat-tab>
+    <div class="container">
 
-    </mat-tab-group>
-</nav>
+        <mat-card class="m-card">
+            <img src="https://source.unsplash.com/random" alt="" class="">
+            <p class="p-3">
+                Some graduates came to us with no university degrees, and some did not even finish high school. Some didn’t know they had
+                a passion for coding, but they did. Most came here without a positive outlook on the future, and now they
+                do. It’s a life changing experience because you’re not just taught how to get a job, you’re taught how to
+                grow and keep increasing your income as you become the leader you’ve always wanted to be.
+            </p>
+        </mat-card>
+
+        <div class="head">
+            <h4 class="text-white">Check out the
+                <span> success stories </span>
+                this could be you in 4 months.
+            </h4>
+        </div>
+
+        <div *ngFor="let grad of alumni">
+            <mat-card class="m-card">
+                <mat-card-content class="content">
+                    <div class="d-flex-row justify-content-center">
+                        <img src="{{ grad.image }}" alt="" class="main-card-img">
+                        <h6 class="card-name">{{ grad.name }}</h6>
+                    </div>
+                    <div>
+                        <p>
+                            {{ grad.was }}
+                        </p>
+                        <p class="float-right">
+                            <i class="fa fa-calendar"></i>
+                            <b>Graduated</b> {{ grad.day }}
+                        </p>
+                    </div>
+                </mat-card-content>
+            </mat-card>
+        </div>
+    </div>
+
+</div>

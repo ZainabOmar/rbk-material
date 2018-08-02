@@ -1,12 +1,37 @@
-.counter {
+
+
+.main-card-img {
+    height: 160px;
+    border-radius: 50% !important;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.card-text {
+    margin: auto 50px;
+    padding: 5%;
+    border: solid #fc6767 1px;
+    border-radius: 15px;
+}
+
+.card-name {
+    margin: 10%;
+    /* text-align: center; */
+    /* margin: 20px; */
+}
+
+.m-card {
+    margin: 100px auto;
     min-height: 200px;
-    overflow: hidden;
-    background: linear-gradient(#cc2b5e, #fc6767);
-    background-attachment: fixed;
 }
 
 
-h5 {
-    font-size: 14px;
+@media(max-width: 768px) {
+    .content {
+        grid-template-columns: 100%;
+    }
 }
 

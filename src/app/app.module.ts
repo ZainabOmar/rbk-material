@@ -23,7 +23,6 @@ import { CounterComponent } from './components/home/layout/main/counter/counter.
 import { PeopleComponent } from './components/home/layout/main/people/people.component';
 import { HiringComponent } from './components/home/layout/main/hiring/hiring.component';
 import { PartnersComponent } from './components/home/layout/partners/partners.component';
-import { WhoComponent } from './components/home/layout/outcomes/who/who.component';
 import { WhereComponent } from './components/home/layout/outcomes/where/where.component';
 import { VolunteerComponent } from './components/home/layout/volunteer/volunteer.component';
 
@@ -47,7 +46,6 @@ import { VolunteerComponent } from './components/home/layout/volunteer/volunteer
     PeopleComponent,
     HiringComponent,
     PartnersComponent,
-    WhoComponent,
     WhereComponent,
     VolunteerComponent,
   ],

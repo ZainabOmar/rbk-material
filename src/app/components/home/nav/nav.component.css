@@ -1,26 +1,32 @@
-.brand {
-    background: rgba(0, 0, 0, .5);
-    width: 100vw;
-}
-
-.brand img {
-    width: 100px;
-    mix-blend-mode: screen;
-    float: right;
-}
-
-
-
-.nav-arrow i {
-    font-size: 20px;
-    color: #82115E;
-    background: white;
-    padding: 10px;
-    border-radius: 50%;
-    margin: 0 20px;
-}
-
-.nav-arrow i:hover {
-    background-color: #ff0379;
-    color: white;
-}
+/* Style the navbar */
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }

@@ -1,29 +1,32 @@
 .counter {
     min-height: 200px;
     overflow: hidden;
-    background: linear-gradient(#ee0979, #FF4B2B);
+    background: linear-gradient(transparent, #FF4B2B);
     background-attachment: fixed;
+
 }
+
 
 .numbers {
     padding: 5% 0%;
     display: grid;
-    margin: 0% 15%;
+    margin: 0% 10%;
     grid-template-columns: 25% 25% 25% 25%;
     justify-content: center;
 }
 
 .num {
-    padding: 20%;
+    padding-top: 50px;
+    padding-bottom: 50px;
     border: 2px solid white;
     border-radius: 50%;
-    height: 250px;
-    width: 250px;
-    margin: 30px;
+    height: 220px;
+    width: 220px;
+    margin: 60px;
 }
 
 i {
-    font-size: 2em;
+    font-size: 1em;
 }
 
 h5 {
@@ -35,11 +38,19 @@ h5 {
         display: grid;
         grid-template-columns: 50% 50%;
     }
+
+    .num {
+        margin: 100px;
+    }
 }
 
 @media(max-width: 768px) {
     .numbers {
         display: grid;
         grid-template-columns: 100%;
+    }
+
+    .num {
+        margin: 50px auto;
     }
 }

@@ -1,3 +1,6 @@
+section {
+    margin-top: 10%;
+}
 .card-content {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -5,17 +8,16 @@
 
 .card-text {
     margin: 20px;
-    font-size: 20px;
+    padding: 5%;
+    border: solid #fc6767 1px;
+    border-radius: 15px;
 }
 
 .m-card {
-    margin: 20px;
+    margin: 100px auto;
+    min-height: 400px;
 }
 
-hr {
-    background: darkgrey;
-    margin: 0px;
-}
 
 .cards-why {
     overflow: hidden;
@@ -25,4 +27,9 @@ hr {
     .card-content {
         grid-template-columns: 100%;
     }
+}
+
+.why {
+  background: linear-gradient(#1E303B , #fc6767);
+    background-attachment: fixed;
 }
