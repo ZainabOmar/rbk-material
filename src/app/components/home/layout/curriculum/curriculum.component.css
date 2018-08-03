@@ -33,7 +33,7 @@
     min-width: 320px;
     max-width: 600px;
     max-height: 360px;
-    width: 100%;
+    width: 90%;
     text-align: center;
     cursor: pointer;
 }
@@ -74,25 +74,51 @@
     height: 100%;
 }
 
-.hiring-wrap {
+.tech-wrap {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    background: white !important;
-    margin: 50px auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background: url(https://source.unsplash.com/random);
+    margin: auto 0 150px 0;
     border-radius: 10px;
+    padding: 10%;
+    justify-content: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 @media(max-width: 786px) {
-    .hiring-wrap {
+    .tech-wrap {
         grid-template-columns: 1fr 1fr 1fr;
+    }
+    .tech {
+        margin: 10px;
+    }
+}
+
+
+@media(max-width: 480px) {
+    .tech-wrap {
+        grid-template-columns: 1fr 1fr;
     }
 }
 
 .tech {
-    width: 80px;
-    margin: 20px;
+    width: 120px;
+    height: 120px;
+    margin: 35px;
+    border: 2px solid white;
+    border-radius: 100%;
+    padding: 30px;
+
 }
 
+.tech img {
+    max-width: 60px;
+    max-height: 60px;
+    min-width: 45px;
+    min-height: 45px;
+}
 /* Anchor will cover the whole item by default */
 
 /* For some effects it will show as a button */

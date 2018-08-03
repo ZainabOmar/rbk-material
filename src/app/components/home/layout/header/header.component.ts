@@ -16,6 +16,7 @@ export class HeaderComponent implements OnInit {
     img: '',
     title: ''
   };
+  @Input() btn = true;
 
   constructor(private data: DataService) { }
 
