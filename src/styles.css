@@ -16,6 +16,12 @@ body {
   background: linear-gradient(#1E303B , #fc6767);
 }
 
+.reflect {
+  transform: rotateX(180deg);
+  opacity: .1;
+  margin: 0 !important;
+}
+
 img {
   border-radius: 15px !important;
 }
@@ -81,14 +87,15 @@ a:hover {
 }
 
 .bg-divider {
-  height: 350px;
+  height: 250px;
   background: url(https://source.unsplash.com/random);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   margin: -38px -40px;
-  filter: brightness(60%);
-  background-position-y: 3%;
+  filter: brightness(50%);
+  transform: rotate(180deg);
+  opacity: .5;
 }
 
 .btn-primary {
