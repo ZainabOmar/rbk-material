@@ -5,7 +5,7 @@
 @import "./assets/fontawesome/css/all.min.css";
 @import "./assets/css/julia.css";
 @import url('https://fonts.googleapis.com/css?family=Karla|Maven+Pro|Quicksand|Varela+Round');
-
+@import "./assets/ihover-gh-pages/src/ihover.css";
 
 body {
   font-family: 'Varela Round', 'Karla', 'Quicksand', 'Maven Pro' !important;
@@ -61,7 +61,7 @@ i:active {
   justify-content: center;
   border: none;
   width: 99%;
-  background: rgba(49, 19, 0, .7);
+  background: #1E303B;
 }
 
 a:hover {
@@ -123,6 +123,7 @@ a:hover {
 }
 
 .mat-card {
+  background: linear-gradient(#1E303B, rgba(50, 50, 100, .8));
   border-radius: 15px !important;
 }
 

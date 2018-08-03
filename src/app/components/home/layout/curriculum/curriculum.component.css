@@ -12,6 +12,35 @@
         grid-template-columns: 100%;
     }
 }
+
+.img img {
+    height: 70px;
+    max-width: 70px;
+    margin: 50px;
+}
+
+.ih-item.circle.effect11 .info {
+    background: rgba(0, 0, 0, .4);
+    height: 176px;
+    width: 176px;
+}
+
+.ih-item.circle.effect11 .info p {
+    font-size: 7%;
+}
+
+
+.circle {
+    height: 80%;
+    width: 80%;
+}
+
+.ih-item.circle .img:before {
+    height: 80%;
+    width: 80%;
+    box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
 .head {
     margin-top: 14%;
     max-height: 100%;
