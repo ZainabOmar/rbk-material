@@ -11,7 +11,7 @@
     grid-template-columns: 1fr 1fr;
     display: grid;
     background-attachment: fixed;
-    background: linear-gradient(#fc6767, transparent);
+    background: #1E303B;
     background-size: cover;
 }
 
