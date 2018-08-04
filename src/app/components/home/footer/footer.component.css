@@ -1,5 +1,5 @@
 #footer {
-    background: url(https://source.unsplash.com/random);     
+    background: url(https://source.unsplash.com/random);
     width: 100vw;
     height: 400px;
     margin-top: -20px;
@@ -16,28 +16,24 @@
 }
 
 .social {
-    display: flex;
-    justify-content: center;
+  margin: 10%;
 }
 
-.social-link {
-    display: flex;
-    width: 10%;
-    flex-direction: row;
-    margin: 50px 0;
+.social li {
+  display: inline;
 }
 
-.social-link i, .up i {
-    color: #fc6767;
-    background: white;
-    border-radius: 50%;
-    padding: 10px;
-}
-
-.social-link i:hover, .up i:hover {
+.social i {
     color: white;
+    padding: 10px;
+    border-radius: 50%;
     background: #fc6767;
     box-shadow: 0px 1px 20px #fc6767;
+}
+
+.social i:hover {
+  color: white;
+  background-color: #1E303B;
 }
 
 .contact {
@@ -47,7 +43,7 @@
 li {
     list-style: none;
     color: white;
-    margin-bottom: 3%;
+    margin: 3%;
     font-size: 14px;
 }
 
@@ -56,10 +52,7 @@ a {
 }
 
 @media(max-width: 1024px) {
-    .social-link {
-        margin: 50px 20px;
-    }    
-    footer {
+    .footer-img {
         grid-template-columns: 1fr;
     }
 }

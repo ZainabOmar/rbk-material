@@ -9,7 +9,7 @@
 }
 
 .inner {
-    background: linear-gradient( #fc6767, transparent);    
+    background: linear-gradient( #fc6767, transparent);
 }
 
 .numbers {
@@ -30,9 +30,6 @@
     margin: 60px;
 }
 
-i {
-    font-size: 1em;
-}
 
 h5 {
     font-size: 14px;

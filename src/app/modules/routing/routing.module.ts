@@ -20,7 +20,7 @@ const appRouts: Routes = [
   { path: 'program', component: ProgramComponent },
   { path: 'curriculum', component: CurriculumComponent },
   { path: 'apply', component: ApplyComponent },
-  { path: 'volunteer', component: VolunteerComponent },
+  { path: 'volunteers', component: VolunteerComponent },
   { path: 'partners', component: PartnersComponent },
 
 ];
