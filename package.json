@@ -1,6 +1,7 @@
 {
   "name": "rbk",
   "version": "0.0.0",
+  "postinstall": "ng build --aot --prod",
   "scripts": {
     "ng": "ng",
     "start": "node ./bin/www",
@@ -9,7 +10,6 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "postinstall": "ng build --aot --prod",
   "engines": {
     "node": "8.11.3"
   },
