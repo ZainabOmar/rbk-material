@@ -28,9 +28,3 @@ section {
         grid-template-columns: 100%;
     }
 }
-
-.why {
-  background: linear-gradient(#1E303B , #fc6767);
-    background-attachment: fixed;
-}
-

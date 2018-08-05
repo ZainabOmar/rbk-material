@@ -8,14 +8,14 @@ header {
 
 
 .header-text {
-    color: #ddd;
+    color: #aaa;
     text-align: center;
 }
 
 .title {
     color: #fff;
+    text-transform: uppercase;
     text-align: center;
-    font-weight: bold;
 }
 
 
@@ -88,4 +88,13 @@ header {
 
 header {
     overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .display-1 {
+      font-size: 30px;
+    }
+    h3 {
+      font-size: 20px;
+    }
 }

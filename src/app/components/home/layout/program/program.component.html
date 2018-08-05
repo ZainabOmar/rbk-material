@@ -2,13 +2,13 @@
 
     <app-header [bg]="'bg3'" [header]="{title: 'The Program', text: 'This is RBK campers journey for 4 months!'}"></app-header>
     <div class="container">
-        
+
         <div class="head m-4">
             <h1>The
                 <span>PROGRAM</span>
             </h1>
         </div>
-        
+
         <!-- the first card -->
         <mat-card class="border-r m-4">
             <mat-card-content>
@@ -17,12 +17,14 @@
                     as importantly, we will enhance your stress levels by pushing you to your maximum limit.</p>
                 </mat-card-content>
             </mat-card>
-            
+
             <div class="m-5" *ngFor="let article of articles">
                 <mat-card class="border-r">
                     <mat-card-header>
                         <mat-card-title>
+                          <h3>
                             {{ article.title }}
+                          </h3>
                         </mat-card-title>
                     </mat-card-header>
                     <mat-card-content class="m-card">

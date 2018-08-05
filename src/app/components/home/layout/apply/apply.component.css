@@ -1,0 +1,28 @@
+.sign {
+  width: 50%;
+  color: white;
+  font-weight: bold;
+  margin: 50px auto;
+  text-align: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, .4);
+  border: 1px solid white;
+}
+
+i {
+  color: #fc6767
+}
+
+
+.m-card {
+  margin: 50px auto;
+}
+
+.mt-10 {
+  margin-top: 150px;
+}
+
+a {
+  color: #fc6767;
+
+}

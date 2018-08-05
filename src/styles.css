@@ -13,7 +13,7 @@ body {
   filter: opacity(90%);
   margin: 0%;
   padding: 0;
-  background: linear-gradient(#1E303B , #fc6767);
+  background: linear-gradient(#1E303B , #fff);
 }
 
 .reflect {
@@ -95,6 +95,10 @@ a:hover {
   filter: brightness(80%);
   transform: rotate(180deg);
   opacity: .5;
+}
+
+.text-color {
+  color: #fc6767;
 }
 
 .btn-primary {

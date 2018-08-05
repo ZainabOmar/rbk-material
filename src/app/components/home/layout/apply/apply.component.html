@@ -1,109 +1,131 @@
 <div class="animated slower fadeIn">
-
-  <div class="container" id="apply">
-    <div class="row my_main mt-5">
-      <div class="col-lg-12 col-md-9">
-        <h2 class="text-uppercase font-weight-bold text-center">Admissions is currently
-          <span class="orange"> closed</span>
-        </h2>
-        <div class="divider float-center"></div>
-        <div class="clearfix"></div>
-        <h6 class="shadow secondary" class="pt-3">Please check our
-          <a href="https://www.facebook.com/rbk.org" class="text-dark">
-            Facebook Page </a> for updates regarding the next admissions cycle.</h6>
-        <div class="container">
-
-          <p class="shadow">In the meantime, consider RBK receives over 1,000-2,000 applications for each 40 person cohort. The most common
-            reason applicants are rejected is poor English ability - lack of comprehension of both spoken and written English.
-          </p>
-          <h4 class="text-center text-rbk bg-rbk mt-5">English ability correlates strongly with success in our program</h4>
-          <p class="shadow">
-            so we highly recommend you improve your English before applying. If you are
-            <a href="http://www.cambridgeenglish.org/exams-and-tests/cefr/">less than B1</a>, you should consider enrolling in online self study course. Test yourself
-            <a href="http://learnenglish.britishcouncil.org/en/content">HERE</a>. There are many FREE online resources. Some require registering but DO NOT PAY. All you need and more
-            is available online for free. </p>
-
-          <h4 class="text-center text-rbk bg-rbk mt-5">Here is some Useful Resources </h4>
-          <ul class="list-inline">
-            <li class="list-block-item ml-5">
-              <span class="ti-angle-double-right"></span>
-              <a href="http://learnenglish.britishcouncil.org/en">British Council</a> - Dig into this site, there is a ton of free resources.
-            </li>
-            <li class="list-block-item ml-5">
-              <span class="ti-angle-double-right"></span>
-              <a href="https://www.fluentu.com/blog/english/learn-english-esl-youtube/">YouTube </a> -
-              <a href="https://www.youtube.com/results?search_query=learn+english">Tons of video classes </a>
-            </li>
-            <li class="list-block-item ml-5">
-              <span class="ti-angle-double-right"></span>
-              <a href="https://www.duolingo.com/course/en/ar/Learn-English-Online">Duolingo English</a>
-            </li>
-            <li class="list-block-item ml-5">
-              <span class="ti-angle-double-right"></span> and
-              <a href="https://www.duolingo.com/register">HERE</a>
-            </li>
-            <li class="list-block-item ml-5">
-              <span class="ti-angle-double-right"></span>
-              <a href="http://www.speakmethod.com/LearnbyLanguageArabic.html">Speak Method </a> English lessons for beginners</li>
-            <li class="list-block-item ml-5">
-              <span class="ti-angle-double-right"></span>
-              Or simply pick up a book and start reading but keep a dictionary close.
-            </li>
-          </ul>
-          <p class="shadow" class="text-center mt-5"> If your English is at least B1 and you want to prepare yourself for the technical aspects of the program, check
-            out some of these sites:</p>
-
-          <ul class="list-inline">
-            <li class="list-block-item ml-5">
-              <span class="ti-angle-double-right"></span>
-              <a href="http://codecademy.com/"> Codecademy</a> - Start with HTML/CSS lessons. Advance to Javascript after you have mastered HTML/CSS. Good
-              for beginners.
-            </li>
-            <li class="list-block-item ml-5">
-              <span class="ti-angle-double-right"></span>
-              <a href="https://www.khanacademy.org/computing/computer-programming">Khan Academy</a>’s Computer Programming courses - Fantastic for beginners. Highly recommended. </li>
-            <li class="list-block-item ml-5">
-              <span class="ti-angle-double-right"></span>
-              <a href="https://www.reddit.com/r/LearnJavascript">learnJavascript</a> - A Reddit subreddit with a lot of good links and other JavaScript learners
-            </li>
-            <li class="list-block-item ml-5">
-              <span class="ti-angle-double-right"></span>
-              <a href="https://www.freecodecamp.org/">Free Code Camp</a> Very good website that takes you from zero to hero
-            </li>
-          </ul>
-
-          <p class="shadow" class="text-center mt-5"> If your English is great and you are already a HTML/CSS/JS ninja, then spend some time time working on your applied
-            problem solving skills.</p>
-
-          <ul class="list-inline">
-            <li class="list-block-item ml-5">
-              <span class="ti-angle-double-right"></span>
-              <a href="https://www.codewars.com/?language=javascript">Codewars</a> is a great site for refining these skills.
-            </li>
-            <li class="list-block-item ml-5">
-              <span class="ti-angle-double-right"></span>
-              <a href="https://coderbyte.com/">Coderbyte</a> Also is a great site to sharp your problem solving skills</li>
-          </ul>
-          <p class="shadow" class="text-center mt-5"> Finally, can you type without looking down at your keyboard? If not, practice your typing, it will save add hours
-            to your day.
-          </p>
-          <ul class="list-inline">
-            <li class="list-block-item ml-5">
-              <span class="ti-angle-double-right"></span>
-              <a href="http://www.keybr.com/#!practice"> Key Br </a>
-            </li>
-            <li class="list-block-item ml-5">
-              <span class="ti-angle-double-right"></span>
-              <a href="https://www.typingclub.com">Typing Club </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
+  <app-header [bg]="'bg2'" [header]="{title: 'Apply', text: 'This is the first step to the futur !'}"></app-header>
+  <div class="sign">
+    <h1>
+      <i class="fas fa-exclamation-triangle animated fast infinite pulse"></i>
+    </h1>
+    <h2>Admissions is currently
+      <span> closed !</span>
+    </h2>
+    <p class="text-dark" class="pt-3">Please check our
+      <a href="https://www.facebook.com/rbk.org">
+        Facebook Page
+      </a>
+       for updates regarding the next admissions cycle.
+    </p>
   </div>
-  <div class="devid">
 
-    <h5 class="text-center text-white mb-5">Good luck!</h5>
-    <h5 class="text-center text-white mb-5"> Mastering all the above does not guarantee you a seat in our program but it will greatly enhance your chances.</h5>
-  </div>
+<div class="container">
+  <h1 class="text-white text-center mt-10">In the <span> meantime </span> </h1>
+  <mat-card>
+    <mat-card-content>
+      <p class="card-text"><i class="fa-3x fas fa-language"></i>consider RBK receives over 1,000-2,000 applications for each 40 person cohort. The most common
+        reason applicants are rejected is poor English ability - lack of comprehension of both spoken and written English.
+        English ability correlates strongly with success in our program
+        so we highly recommend you improve your English before applying. If you are
+        <a href="http://www.cambridgeenglish.org/exams-and-tests/cefr/">less than B1</a>, you should consider enrolling in online self study course. Test yourself
+        <a href="http://learnenglish.britishcouncil.org/en/content">HERE</a>. There are many FREE online resources. Some require registering but DO NOT PAY. All you need and more
+        is available online for free.
+      </p>
+    </mat-card-content>
+  </mat-card>
+
+<h1 class="text-white text-center mt-10"> Here is some Useful <span> Resources </span> </h1>
+<mat-card>
+<ul class="list-inline">
+  <li class="list-block-item ml-5">
+    <i class="fas fa-angle-double-right"></i>
+    <a href="http://learnenglish.britishcouncil.org/en">British Council</a> - Dig into this site, there is a ton of free resources.
+  </li>
+  <li class="list-block-item ml-5">
+    <i class="fas fa-angle-double-right"></i>
+    <a href="https://www.fluentu.com/blog/english/learn-english-esl-youtube/">YouTube </a> -
+    <a href="https://www.youtube.com/results?search_query=learn+english">Tons of video classes </a>
+  </li>
+  <li class="list-block-item ml-5">
+    <i class="fas fa-angle-double-right"></i>
+    <a href="https://www.duolingo.com/course/en/ar/Learn-English-Online">Duolingo English</a>
+  </li>
+  <li class="list-block-item ml-5">
+    <i class="fas fa-angle-double-right"></i>and
+    <a href="https://www.duolingo.com/register">HERE</a>
+  </li>
+  <li class="list-block-item ml-5">
+    <i class="fas fa-angle-double-right"></i>
+    <a href="http://www.speakmethod.com/LearnbyLanguageArabic.html">Speak Method </a> English lessons for beginners</li>
+  <li class="list-block-item ml-5">
+    <i class="fas fa-angle-double-right"></i>
+    Or simply pick up a book and start reading but keep a dictionary close.
+  </li>
+</ul>
+</mat-card>
+
+<mat-card class="my-5">
+    <h4 class="mb-3">
+      If your English is at least B1 and you want to prepare yourself for the technical aspects of the program, check out some of these sites
+   </h4>
+    <ul class="list-inline">
+      <li class="list-block-item ml-5">
+        <i class="fas fa-angle-double-right"></i>
+        <a href="http://codecademy.com/"> Codecademy</a> - Start with HTML/CSS lessons. Advance to Javascript after you have mastered HTML/CSS. Good
+        for beginners.
+      </li>
+      <li class="list-block-item ml-5">
+        <i class="fas fa-angle-double-right"></i>
+        <a href="https://www.khanacademy.org/computing/computer-programming">Khan Academy</a>’s Computer Programming courses - Fantastic for beginners. Highly recommended. </li>
+      <li class="list-block-item ml-5">
+        <i class="fas fa-angle-double-right"></i>
+        <a href="https://www.reddit.com/r/LearnJavascript">learnJavascript</a> - A Reddit subreddit with a lot of good links and other JavaScript learners
+      </li>
+      <li class="list-block-item ml-5">
+        <i class="fas fa-angle-double-right"></i>
+        <a href="https://www.freecodecamp.org/">Free Code Camp</a> Very good website that takes you from zero to hero
+      </li>
+    </ul>
+</mat-card>
+
+
+<mat-card class="my-5">
+    <h4 class="mb-3">
+      If your English is great and you are already a HTML/CSS/JS ninja, then spend some time time working on your applied
+        problem solving skills.
+   </h4>
+   <ul class="list-inline">
+     <li class="list-block-item ml-5">
+       <i class="fas fa-angle-double-right"></i>
+       <a href="https://www.codewars.com/?language=javascript">Codewars</a> is a great site for refining these skills.
+     </li>
+     <li class="list-block-item ml-5">
+       <i class="fas fa-angle-double-right"></i>
+       <a href="https://coderbyte.com/">Coderbyte</a> Also is a great site to sharp your problem solving skills</li>
+   </ul>
+</mat-card>
+
+<mat-card>
+<h4 class="mb-3"> Finally, can you type without looking down at your keyboard? If not, practice your typing, it will save add hours
+  to your day.
+</h4>
+<ul class="list-inline">
+  <li class="list-block-item ml-5">
+    <i class="fas fa-angle-double-right"></i>
+    <a href="http://www.keybr.com/#!practice"> Key Br </a> this website is good to learn typing.
+  </li>
+  <li class="list-block-item ml-5">
+    <i class="fas fa-angle-double-right"></i>
+    <a href="https://www.typingclub.com">Typing Club </a> very good website to improve your typing skills.
+  </li>
+  <li class="list-block-item ml-5">
+    <i class="fas fa-angle-double-right"></i>
+    <a href="https://play.typeracer.com/">Type Racer </a> you can enjoy typing and play it as a game here.
+  </li>
+
+</ul>
+</mat-card>
+<h3 class="text-center text-white m-5"> Mastering all the above does not guarantee you a seat in our program but it will greatly enhance your chances.</h3>
+<h1 class="text-center text-white m-5">Good <span>
+ luck!
+</span></h1>
+
+
+</div>
 </div>

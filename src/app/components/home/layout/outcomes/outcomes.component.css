@@ -40,6 +40,12 @@
     .content {
         grid-template-columns: 100%;
     }
+
+    .day {
+        position: absolute;
+        bottom: 5px;
+        right: 5px;
+    }
 }
 
 
@@ -48,4 +54,3 @@
     transform: scale(1.009);
 
 }
-
