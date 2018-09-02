@@ -10,6 +10,8 @@ header {
 .header-text {
     color: #aaa;
     text-align: center;
+    margin-left: 150px;
+    width:70%;
 }
 
 .title {

@@ -17,7 +17,6 @@ import { AdmissionComponent } from './components/home/layout/admission/admission
 import { OutcomesComponent } from './components/home/layout/outcomes/outcomes.component';
 import { ProgramComponent } from './components/home/layout/program/program.component';
 import { CurriculumComponent } from './components/home/layout/curriculum/curriculum.component';
-import { WhatComponent } from './components/home/layout/main/what/what.component';
 import { WhyComponent } from './components/home/layout/main/why/why.component';
 import { CounterComponent } from './components/home/layout/main/counter/counter.component';
 import { PeopleComponent } from './components/home/layout/main/people/people.component';
@@ -41,7 +40,6 @@ import { ApplyComponent } from './components/home/layout/apply/apply.component';
     OutcomesComponent,
     ProgramComponent,
     CurriculumComponent,
-    WhatComponent,
     WhyComponent,
     CounterComponent,
     PeopleComponent,
