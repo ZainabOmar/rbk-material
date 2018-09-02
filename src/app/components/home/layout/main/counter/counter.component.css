@@ -1,7 +1,7 @@
 .counter {
     min-height: 200px;
     overflow: hidden;
-    background: url(https://source.unsplash.com/random);
+    background: url(https://source.unsplash.com/L8126OwlroY);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,9 +13,7 @@
 }
 
 .numbers {
-    padding: 5% 0%;
     display: grid;
-    margin: 0% 10%;
     grid-template-columns: 25% 25% 25% 25%;
     justify-content: center;
 }
@@ -30,9 +28,8 @@
     margin: 60px;
 }
 
-
 h5 {
-    font-size: 14px;
+    font-size: 22px;
 }
 
 @media(max-width: 1200px) {

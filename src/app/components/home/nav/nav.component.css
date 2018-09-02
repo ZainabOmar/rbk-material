@@ -21,7 +21,7 @@
     border: #fff 1px solid;
     transition-duration: 2s;
     transition-timing-function: ease;
-    background: url(https://source.unsplash.com/random);
+    background: url(https://source.unsplash.com/L8126OwlroY);
     background-size: cover;
     filter: grayscale(70) opacity(.6);
     border-bottom-left-radius: 15px;
@@ -61,7 +61,7 @@ a:not([href]):not([tabindex]) {
       border: #fff .07px solid;
       transition-duration: 1s;
       transition-timing-function: ease;
-      background: url(https://source.unsplash.com/random);
+      background: url(https://source.unsplash.com/L8126OwlroY);
       background-size: cover;
       filter: grayscale(70) opacity(.6);
       border-bottom-left-radius: 0px;

@@ -1,17 +1,16 @@
 <header>
-
-  <div class="hero" [ngClass]="bg">
-    <div class="d-flex justify-content-center">
-      <img src="{{ header.img }}" alt="" class="header-image">
-    </div>
-    <h1 class="title display-1">{{ header.title }}</h1>
-    <div class="text-center">
-      <h3 class="header-text">
-        {{ header.text }}
-      </h3>
-      <button routerLink="/apply" class="btn btn-primary animated infinite pulse" *ngIf="btn">Apply
-        <i class="fa fa-arrow-right"></i>
-      </button>
-    </div>
-  </div>
+ <div class="hero d-flex justify-content-center align-items-center" [ngClass]="bg">
+   <div class="text-center">
+     <img src="{{ header.img }}" alt="" class="image"/>
+     <br><br>
+     <br>
+     <h3 class="header-text">
+       {{ header.text }}
+     </h3>
+     <br><br>
+     <button routerLink="/apply" class="btn btn-primary animated infinite pulse" *ngIf="btn">Apply
+       <i class="fa fa-arrow-right"></i>
+     </button>
+   </div>
+ </div>
 </header>
