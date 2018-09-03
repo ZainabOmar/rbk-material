@@ -1,5 +1,3 @@
-<section class="peoples">
-  <div class="people">
     <div class="head">
       <h1>LIVES
         <span>CHANGED</span>
@@ -7,43 +5,45 @@
     </div>
 
     <div class="grid">
-      <figure class="effect-steve">
-        <img src="../../../../../../assets/RBK/fatima-150x150.jpg" alt="img29" />
-        <figcaption>
-          <h5>
-            <span>Fatimah Hammami</span>
-          </h5>
-          <p>Program Manager at RBK, was unemployed (Cohort 1)</p>
-        </figcaption>
-      </figure>
-      <figure class="effect-steve">
-        <img src="./../../../../../assets/RBK/tareq.png" alt="img33" />
-        <figcaption>
-          <h5>
-            <span>Tareq Al-Hariri</span>
-          </h5>
-          <p>Software Engineer at Codacity, was unemployed (Cohort 3)</p>
-        </figcaption>
-      </figure>
-      <figure class="effect-steve">
-        <img src="./../../../../../assets/RBK/ahmad.jpg" alt="img33" />
-        <figcaption>
-          <h5>
-            <span>Ahmad Al-Zoubi</span>
-          </h5>
-          <p>Full Stack Developer at IOT, was constructor (Cohort 4)</p>
-        </figcaption>
-      </figure>
+      <div class="responsive">
+        <div class="gallery">
+          <div class="desc">Fatima Hammami</div>
+          <img src="../../../../../../assets/RBK/fatima-150x150.jpg" alt="Fatima-cohort1" width="600" height="400">
+          <div class="desc">Program Manager at RBK, was unemployed (Cohort 1)</div>
+        </div>
+      </div>
+
+      <div class="responsive">
+        <div class="gallery">
+          <div class="desc">Ahmad Al-Zoubi</div>
+          <img src="./../../../../../assets/RBK/ahmad.png" alt="Ahmad-cohort4" width="600" height="400">
+          <div class="desc">Full Stack Developer at IOT, was constructor (Cohort 4)</div>
+        </div>
+      </div>
+
+      <div class="responsive">
+        <div class="gallery">
+          <div class="desc">Hiba Akroush</div>
+          <img src="./../../../../../assets/RBK/hiba.jpeg" alt="Hiba-cohort3" width="600" height="400">
+          <div class="desc">Software Engineer at Expedia, was teacher (Cohort 3)</div>
+        </div>
+      </div>
+
+      <div class="responsive">
+        <div class="gallery">
+          <div class="desc">Mohammad Al-Bakri</div>
+          <img src="./../../../../../assets/RBK/MohamadBakri-150x150.png" alt="Hiba-cohort3" width="600" height="300">
+          <div class="desc">Full stack developer at Brite Core, was cashier (Cohort 1)</div>
+        </div>
+      </div>
+
     </div>
-  </div>
-  <div class="head">
-    <h1>JOIN THEM
-      <span>NOW</span>
-    </h1>
-    <button routerLink="/apply" class="btn btn-primary animated infinite pulse" *ngIf="btn">Apply
-      <i class="fa fa-arrow-right"></i>
-    </button>
-  </div>
-</section>
 
-
+    <div class="head">
+      <h1>JOIN THEM
+        <span>NOW</span>
+      </h1>
+      <button routerLink="/apply" class="btn btn-primary animated infinite pulse" *ngIf="btn">Apply
+        <i class="fa fa-arrow-right"></i>
+      </button>
+    </div>
