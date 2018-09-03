@@ -1,3 +1,11 @@
-.people {
+img{
+	width: 50%;
+}
+.peoples {
+    background: url("../../../../../../assets/RBK/night.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 14% 0;
     margin-top: 15%;
 }

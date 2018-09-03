@@ -88,7 +88,7 @@ a:hover {
 
 .bg-divider {
   height: 250px;
-  background: url(https://source.unsplash.com/random);
+  background: url(assets/RBK/night.jpeg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -150,7 +150,7 @@ a:hover {
 
 .head {
   text-align: center;
-  margin-top: 70px;
+  margin-top: 40px;
 }
 
 .head h1 {

@@ -110,7 +110,7 @@
 .tech-wrap {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    background: url(https://source.unsplash.com/L8126OwlroY);
+    background: url("../../../../../assets/RBK/night.jpeg");
     margin: auto 0;
     border-radius: 10px;
     padding: 10%;

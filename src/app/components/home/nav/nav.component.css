@@ -21,7 +21,7 @@
     border: #fff 1px solid;
     transition-duration: 2s;
     transition-timing-function: ease;
-    background: url(https://source.unsplash.com/L8126OwlroY);
+    background: url(../../../../assets/RBK/night.jpeg);
     background-size: cover;
     filter: grayscale(70) opacity(.6);
     border-bottom-left-radius: 15px;
