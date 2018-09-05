@@ -1,17 +1,57 @@
+#why{
+    min-height: 150px;
+    overflow: hidden;
+    background: url("../../../../../../assets/RBK/background_00000.gif");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 *{
     box-sizing: border-box;
-    font-family: 'Montserrat';
+    font-family: 'Varela Round', 'Karla', 'Quicksand', 'Maven Pro' !important;
 }
 h4{
-    color: #b41a83;
+    color: #fc5858;
+}
+p{
+  color: white;
+}
+.Our-Grads{
+    width: 100%;
+    padding: 0;
+    height: 400px;
+}
+.row{
+    width: 100%;
+    margin: 1%;
+    height: 100%;
+    margin-left: 3%
+}
+#SuccessStories{
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+}
+#SuccessStoriesWord{
+    padding: 7%;
+    margin: 0;
+    font-size: large;
+    width: fit-content;
+}
+#Stories{
+    background-image: url("../../../../../../assets/RBK/guys.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 100%;
+    position: relative;
 }
 hr{
     width: 50%;
-}
-.pink{
-    color: #b41a83;
-    text-align: center;
-    font-size: 5vw;
 }
 .companySlide{
     width: 100%;
@@ -47,11 +87,6 @@ hr{
 .col{
     padding: 0;
 }
-.row{
-    width: 100%;
-    margin: 0;
-    height: 100%;
-}
 .companyLogo{
     margin-top: 5%;
     max-width: 100%; 
@@ -62,25 +97,11 @@ hr{
     background-color: white;
     z-index: 10;
 }
-.Our-Grads{
-    width: 100%;
-    padding: 0;
-    height: 400px;
-}
-#Stories{
-    background-image: url("../../../../../../assets/RBK/guys.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 40%;
-    height: 100%;
-    position: relative;
-    border-right: 6px solid white;
-}
+
+
 @media screen and (max-width: 600px) {
     #Stories{
         width: 100% !important;
-        border-right: 0 !important;
-        border-bottom: 6px solid white !important;
     }
     #GradsImage{
         width: 100% !important;
@@ -89,20 +110,14 @@ hr{
     #GradsUpImage{
         width: 50% !important;
         height: 100% !important;
-        border-bottom: 0 !important;
-        border-right: 3px solid white !important;
     }
     #GradsDownImage{
         width: 50% !important;
         height: 100% !important;
-        border-top: 0 !important;
-        border-left: 3px solid white !important;
     }
     #GradsSlide{
         width: 100% !important;
         height: 100% !important;
-        border-left: 0 !important;
-        border-top: 6px solid white !important;
         padding: 10% 10% 5% 10% !important;
     }
     .companySlide{
@@ -112,38 +127,6 @@ hr{
         font-size: medium !important;
     }
 }
-#SuccessStories{
-    height: 45%;
-    background-color: white;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    color: black;
-    display: flex;
-    align-items: center;
-}
-#SuccessStoriesWord{
-    padding: 7%;
-    margin: 0;
-    font-size: large;
-    width: fit-content;
-}
-#SuccessStoriesButton{
-    background-color: #b41a83;
-    width: 33.3%;
-    height: 33.3%;
-    text-align: center;
-    padding: 2%;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-a{
-    color: white;
-}
-a:hover{
-    color: white;
-}
 #GradsImage{
     width: 20%;
     height: 100%;
@@ -152,7 +135,6 @@ a:hover{
     background-image: url("../../../../../../assets/RBK/cohort4.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    border-bottom: 3px solid white;
     height: 50%;
     width: 100%;
 }
@@ -160,13 +142,11 @@ a:hover{
     background-image: url("../../../../../../assets/RBK/cohort2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    border-top: 3px solid white;
     height: 50%;
     width: 100%;
 }
 #GradsSlide{
-    background-color: #1e3f49;
-    border-left: 6px solid white;
+    background-image: url("../../../../../../assets/RBK/statistic.jpg");
     width: 40%;
     padding: 4% 4% 2% 4%;
     position: relative;
@@ -175,8 +155,6 @@ a:hover{
   content: '';
   position: absolute;
   bottom: 0; right: 0;
-  border-bottom: 80px solid #b41a83;
-  border-left: 80px solid #1e3f49;
   width: 0;
 }
 #GradSlideTop{
@@ -189,9 +167,6 @@ a:hover{
 ::-webkit-scrollbar {
     width: 0px;  /* remove scrollbar space */
     background: transparent;  /* optional: just make scrollbar invisible */
-}
-p{
-    margin: 0;
 }
 #line{
     width: 100%;
@@ -224,10 +199,10 @@ p{
     color: white;
 }
 #gradSpecialized{
-    color: #b41a83;
+    color: #fc5858;
 }
 #gradCompany{
-    color: #0c2930;
+    color: white;
 }
 .carousel{
     height: 100%;
@@ -246,8 +221,8 @@ p{
   position: relative;
   top: 20px;
   margin: 0 5px;
-  background-color: #0c2930;
+  background-color: white;
 }
 .carousel-indicators .active {
-    background-color: #b41a83;
+    background-color: #fc5858;
 }

@@ -9,7 +9,9 @@
 }
 
 .hiring {
-    background: url("../../../../../../assets/RBK/night.jpeg");
+    background: url("../../../../../../assets/RBK/background_00000.gif");
+    /* background: url("../../../../../../assets/RBK/night.jpeg"); */
+
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
