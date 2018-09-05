@@ -1,51 +1,10 @@
-div.gallery img {
-	width: 70%;
-	height: 60%;
-}
 
-div.desc {
-	padding: 15px;
-	text-align: center;
-}
-
-* {
-	box-sizing: border-box;
-}
-
-.grid{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
-.responsive {
-	padding: 0 6px;
-	float: center;
-	width: 24.99999%;
-}
-@media only screen and (max-width: 700px) {
-	.responsive {
-		width: 49.99999%;
-		margin: 6px 0;
-	}
-}
-
-@media only screen and (max-width: 500px) {
-	.responsive {
-		width: 100%;
-	}
-}
-
-.clearfix:after {
-	content: "";
-	display: table;
-	clear: both;
-}
 .people{
-	min-height: 200px;
-    overflow: hidden;
-    background: url("../../../../../../assets/RBK/night.jpeg");
+	min-height: 150px;
+		overflow: hidden;
+		background: url("../../../../../../assets/RBK/background_00000.gif");
+    /* background: url("../../../../../../assets/RBK/aa.jpg"); */
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: cover;
+		background-size: cover;
 }

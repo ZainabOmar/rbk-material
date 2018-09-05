@@ -1,49 +1,74 @@
-
-<div class="head wow animated slow fadeIn" style="background-color: black">
-  <h1>LIVES
-    <span>CHANGED</span>
-  </h1>
-</div>
 <section class="people">
-  <div class="grid">
-    <div class="responsive">
-      <div class="gallery">
-        <div class="desc">Fatima Hammami</div>
-        <img src="../../../../../../assets/RBK/fatima-150x150.jpg" alt="Fatima-cohort1" width="600" height="400">
-        <div class="desc">Program Manager at RBK, was unemployed (Cohort 1)</div>
-      </div>
-    </div>
+  <div class="head">
+    <h1>Lives
+      <span>Changed</span>
+    </h1>
+  </div>
 
-    <div class="responsive">
-      <div class="gallery">
-        <div class="desc">Ahmad Al-Zoubi</div>
-        <img src="./../../../../../assets/RBK/ahmad.png" alt="Ahmad-cohort4" width="600" height="400">
-        <div class="desc">Full Stack Developer at IOT, was constructor (Cohort 4)</div>
-      </div>
-    </div>
+  <div class="container">
+    <div class="row text-center">
 
-    <div class="responsive">
-      <div class="gallery">
-        <div class="desc">Hiba Akroush</div>
-        <img src="./../../../../../assets/RBK/hiba.jpeg" alt="Hiba-cohort3" width="600" height="400">
-        <div class="desc">Software Engineer at Expedia, was teacher (Cohort 3)</div>
+      <div class="col">
+        <div class="card " style="width:250px">
+          <img class="card-img-top" src="../../../../../../assets/RBK/fatima-150x150.jpg" alt="Card image" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">Fatima Hammami</h4>
+            <p class="card-text">Program Manager</p>
+            <p class="card-text">at RBK</p>
+            <p class="card-text">Was Unemployed</p>
+            <p class="card-text">(Cohort 1)</p>
+          </div>
+        </div>
       </div>
-    </div>
 
-    <div class="responsive">
-      <div class="gallery">
-        <div class="desc">Mohammad Al-Bakri</div>
-        <img src="./../../../../../assets/RBK/MohamadBakri-150x150.png" alt="Hiba-cohort3" width="600" height="300">
-        <div class="desc">Full stack developer at Brite Core, was cashier (Cohort 1)</div>
+      <div class="col">
+        <div class="card" style="width:250px">
+          <img class="card-img-top" src="../../../../../../assets/RBK/MohamadBakri-150x150.png" alt="Card image" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">Mohammad Al-Bakri</h4>
+            <p class="card-text">Full stack Developer </p>
+            <p class="card-text">at Brite Core</p>
+            <p class="card-text">Was Cashier </p>
+            <p class="card-text">(Cohort 2)</p>
+          </div>
+        </div>
       </div>
+
+      <div class="col">
+        <div class="card" style="width:250px">
+          <img class="card-img-top" src="../../../../../../assets/RBK/hiba.jpeg" alt="Card image" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">Hiba Akroush</h4>
+            <p class="card-text">Software Engineer </p>
+            <p class="card-text">at Expedia</p>
+            <p class="card-text">Was Teacher</p>
+            <p class="card-text">(Cohort 3)</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+          <div class="card" style="width:250px">
+            <img class="card-img-top" src="../../../../../../assets/RBK/ahmad.png" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">Ahmad Al-Zoubi</h4>
+              <p class="card-text">Full Stack Developer </p>
+              <p class="card-text">at IOT</p>
+              <p class="card-text">Was Constructor</p>
+              <p class="card-text">(Cohort 4)</p>
+            </div>
+          </div>
+        </div>
     </div>
   </div>
+  <div class="head">
+    <h1>Be One Of Them
+      <span>Follow Your Dream</span>
+      &nbsp; &nbsp;
+      <button routerLink="/apply" class="btn btn-primary animated infinite pulse" *ngIf="btn">Apply
+        <i class="fa fa-arrow-right"></i>
+      </button>
+    </h1>
+
+  </div>
 </section>
-<div class="head wow animated slow fadeIn" style="background-color: black">
-  <h1>JOIN THEM
-    <span>NOW</span>
-  </h1>
-  <button routerLink="/apply" class="btn btn-primary animated infinite pulse" *ngIf="btn">Apply
-    <i class="fa fa-arrow-right"></i>
-  </button>
-</div>
