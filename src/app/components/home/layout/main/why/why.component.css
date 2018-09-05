@@ -1,7 +1,7 @@
 #why{
     min-height: 150px;
     overflow: hidden;
-    background: url("../../../../../../assets/RBK/background_00000.gif");
+    background: url("../../../../../../assets/giphy.gif");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -54,7 +54,7 @@ h1{
     width: fit-content;
 }
 #Stories{
-    background-image: url("../../../../../../assets/RBK/cohort4.jpg");
+    background-image: url("../../../../../../assets/RBK/cohort2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     width: 30%;
@@ -75,7 +75,7 @@ h1{
     width: 100%;
 }
 #GradsDownImage{
-    background-image: url("../../../../../../assets/RBK/cohort2.jpg");
+    background-image: url("../../../../../../assets/RBK/guys.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 50%;

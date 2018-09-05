@@ -9,10 +9,9 @@
 }
 
 .hiring {
-    /*background: url("../../../../../../assets/RBK/background_00000.gif");*/
-     background: url("../../../../../../assets/RBK/Statistic.jpg"); 
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 1% 0;
+   background: url("../../../../../../assets/RBK/Statistic.jpg"); 
+   background-attachment: fixed;
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding: 1% 0;
 }

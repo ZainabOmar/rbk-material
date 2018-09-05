@@ -8,14 +8,14 @@ header {
 
 
 .header-text {
-    color: #aaa;
+    color: white;
     text-align: center;
     margin-left: 150px;
     width:70%;
 }
 
 .title {
-    color: #fff;
+    color: white;
     text-transform: uppercase;
     text-align: center;
 }
@@ -29,7 +29,8 @@ header {
 
 
 .bg1 {
-    background: url(https://awllpaper.com/wp-content/uploads/2018/03/dark-pink-flower-wallpaper-colorful-flowers-dark-background-16164.jpg);
+    background: url(../../../../../assets/giphy.gif);
+    /*background: url(../../../../../assets/RBK/background_00000.gif);*/
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;

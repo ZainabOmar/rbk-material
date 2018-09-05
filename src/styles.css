@@ -21,10 +21,6 @@ body {
   opacity: .1;
   margin: 0 !important;
 }
-
-img {
-  border-radius: 15px !important;
-}
 h1, h2, h3, h4, h5, h6, p, button, span {
   font-family: 'Varela Round', 'Karla', 'Quicksand', 'Maven Pro' !important;
 }
