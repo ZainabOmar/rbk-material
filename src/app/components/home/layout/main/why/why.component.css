@@ -10,11 +10,13 @@
     box-sizing: border-box;
     font-family: 'Varela Round', 'Karla', 'Quicksand', 'Maven Pro' !important;
 }
-h4{
+h3{
     color: #fc5858;
+    text-align: center;
 }
-p{
+h1{
   color: white;
+  text-align: center;
 }
 .Our-Grads{
     width: 100%;
@@ -23,9 +25,8 @@ p{
 }
 .row{
     width: 100%;
-    margin: 1%;
+    margin: 3% 1% 1% 3%;
     height: 100%;
-    margin-left: 3%
 }
 #SuccessStories{
     height: 100%;
@@ -53,61 +54,13 @@ p{
     width: fit-content;
 }
 #Stories{
-    background-image: url("../../../../../../assets/RBK/guys.jpg");
+    background-image: url("../../../../../../assets/RBK/cohort4.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     width: 30%;
     height: 100%;
     position: relative;
 }
-hr{
-    width: 50%;
-}
-.companySlide{
-    width: 100%;
-    padding: 3% 12%;
-}
-.Arrow{
-    width: 4.16%;
-}
-#LArrow{
-    background-image: url("../../../../../../assets/RBK/guys.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 70%;
-    margin: 0;
-    padding: 0;
-    float:left;
-    background-position: center;
-    cursor: pointer;
-}
-#RArrow{
-    background-image: url("../../../../../../assets/RBK/cohort2.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 70%;
-    margin: 0;
-    padding: 0;
-    float:right;
-    background-position: center;
-    cursor: pointer;
-}
-.col{
-    padding: 0;
-}
-.companyLogo{
-    margin-top: 5%;
-    max-width: 100%; 
-    padding: 10% 5%;
-    margin: 0;
-}
-.Arrow{
-    background-color: white;
-    z-index: 10;
-}
-
 
 @media screen and (max-width: 600px) {
     #Stories{
@@ -130,9 +83,6 @@ hr{
         height: 100% !important;
         padding: 10% 10% 5% 10% !important;
     }
-    .companySlide{
-        padding: 3% 0 !important;
-    }
     #GradText{
         font-size: medium !important;
     }
@@ -142,10 +92,10 @@ hr{
     height: 100%;
 }
 #GradsUpImage{
-    background-image: url("../../../../../../assets/RBK/cohort4.jpg");
+    background-image: url("../../../../../../assets/RBK/upImage.png");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 50%;
+    height: 60%;
     width: 100%;
 }
 #GradsDownImage{
@@ -156,7 +106,9 @@ hr{
     width: 100%;
 }
 #GradsSlide{
-    background-image: url("../../../../../../assets/RBK/cohort4.jpg");
+    background-image: url("../../../../../../assets/RBK/cohort1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 40%;
     padding: 4% 4% 2% 4%;
     position: relative;
@@ -166,7 +118,6 @@ hr{
   content: '';
   position: absolute;
   bottom: 0; right: 0;
-  /*width: 0;*/
   height: 100%;
   width: 100%;
   background: rgba(0, 0, 0, 0.7);
@@ -179,7 +130,8 @@ hr{
 #GradSlideTop{
     text-align: justify;
     line-height: 1;
-    height: 60%;
+    height: 100%;
+    width: fit-content;
     color: white;
     overflow: auto;
 }

@@ -25,6 +25,7 @@ import { PartnersComponent } from './components/home/layout/partners/partners.co
 import { WhereComponent } from './components/home/layout/outcomes/where/where.component';
 import { VolunteerComponent } from './components/home/layout/volunteer/volunteer.component';
 import { ApplyComponent } from './components/home/layout/apply/apply.component';
+import { SDGsComponent } from './components/home/layout/main/sdgs/sdgs.component';
 
 
 @NgModule({
@@ -48,6 +49,7 @@ import { ApplyComponent } from './components/home/layout/apply/apply.component';
     WhereComponent,
     VolunteerComponent,
     ApplyComponent,
+    SDGsComponent,
   ],
   imports: [
     BrowserModule,
