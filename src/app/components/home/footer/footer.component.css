@@ -1,58 +1,68 @@
-#footer {
-    background: url("../../../../assets/RBK/night.jpeg");
-    width: 100vw;
-    height: 400px;
-    margin-top: -20px;
-    background-size: cover;
-    background-attachment: fixed;
+
+.pink {
+    color: #b41a83;
+    font-size: 15px;
 }
 
-.footer-img {
-    grid-template-columns: 1fr 1fr;
-    display: grid;
-    background-attachment: fixed;
-    background: #1E303B;
-    background-size: cover;
+
+textarea{ 
+    background-color:#e6e6e6 !important;
+} 
+
+input[type="text"]{
+background-color:#e6e6e6 !important;
+}
+input[type="email"]{
+background-color:#e6e6e6 !important;
 }
 
-.social {
-  margin: 10%;
+.line {
+    height: 200px;
+    background-color: #b41a83; 
+}
+ 
+footer {
+   /* border-top: solid;
+    border-color:#b41a83;*/
+    background-color: #192325;
+
+} 
+
+h5{
+  color:gray;
+  font-size:12px;
+  font-family: sans-serif;
+  margin-left: 40%;
+}
+p,a {
+    color :gray;
+    font-size: 18px;
+    font-family: sans-serif;
 }
 
-.social li {
-  display: inline;
-}
 
-.social i {
-    color: white;
-    padding: 10px;
-    border-radius: 50%;
-    background: #fc6767;
-    box-shadow: 0px 1px 20px #fc6767;
+.vertical-menu i {
+   
+    display: block; 
+    padding: 4px; 
+    text-decoration: none; 
 }
-
-.social i:hover {
+i.fa {
+  padding: 4px;
   color: white;
-  background-color: #1E303B;
+  
+}
+#footerConnected{
+  margin-left: 30px;
+  margin-bottom:30px;
+}
+a:hover { 
+  color: #b41a83;
+  text-decoration: none;
 }
 
-.contact {
-    display: block;
-    margin: 80px 0;
-}
-li {
-    list-style: none;
-    color: white;
-    margin: 3%;
-    font-size: 14px;
+
+.text-footer{
+  margin-top: 30px; 
 }
 
-a {
-    color: white;
-}
-
-@media(max-width: 1024px) {
-    .footer-img {
-        grid-template-columns: 1fr;
-    }
-}
