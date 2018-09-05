@@ -36,6 +36,16 @@ p{
     display: flex;
     align-items: center;
 }
+.gradP{
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
 #SuccessStoriesWord{
     padding: 7%;
     margin: 0;
@@ -146,16 +156,25 @@ hr{
     width: 100%;
 }
 #GradsSlide{
-    background-image: url("../../../../../../assets/RBK/statistic.jpg");
+    background-image: url("../../../../../../assets/RBK/cohort4.jpg");
     width: 40%;
     padding: 4% 4% 2% 4%;
     position: relative;
+
 }
 #GradsSlide:before {
   content: '';
   position: absolute;
   bottom: 0; right: 0;
-  width: 0;
+  /*width: 0;*/
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+
 }
 #GradSlideTop{
     text-align: justify;
