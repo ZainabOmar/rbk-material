@@ -1,17 +1,18 @@
 .img {
-    max-width: 150px;
+  max-width: 150px;
 }
 .container {
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-content: center;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .hiring {
-   background: url("../../../../../../assets/RBK/Statistic.jpg"); 
-   background-attachment: fixed;
-   background-size: cover;
-   background-repeat: no-repeat;
-   padding: 1% 0;
+ background: url("../../../../../../assets/RBK/background_00000.gif"); 
+ /*background: url("../../../../../../assets/RBK/background_00000.gif"); */
+ background-attachment: fixed;
+ background-size: cover;
+ background-repeat: no-repeat;
+ padding: 1% 0;
 }
