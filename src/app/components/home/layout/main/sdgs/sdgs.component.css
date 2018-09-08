@@ -1,66 +1,87 @@
 .sdgs{
- /*background: url("../../../../../../assets/RBK/background_00000.gif"); */
- background: url("../../../../../../assets/pink.jpg"); 
- background-attachment: fixed;
- background-size: cover;
- background-repeat: no-repeat;
- padding: 1% 0;
-}
-*{
-    box-sizing: border-box;
-    font-family: 'Montserrat';
-}
-.companySlide{
-	width: 100%;
-	padding: 3% 12%;
-}
-.Arrow{
-	width: 4.16%;
-}
-#LArrow{
-	background-image: url("../../../../../../assets/sdgs/leftArrow.png");
-	background-size: contain;
+	background: url("../../../../../../assets/pink.jpg"); 
+	background-attachment: fixed;
+	background-size: cover;
 	background-repeat: no-repeat;
-	height: 100%;
-	width: 70%;
-	margin: 0;
-	padding: 0;
-	float:left;
-	background-position: center;
-	cursor: pointer;
+	padding: 1% 0;
 }
-#RArrow{
-	background-image: url("../../../../../../assets/sdgs/rightArrow.png");
-	background-size: contain;
-	background-repeat: no-repeat;
-	height: 100%;
-	width: 70%;
-	margin: 0;
-	padding: 0;
-	float:right;
-	background-position: center;
-	cursor: pointer;
+/* Global */
+ 
+
+img { max-width:100%; }
+
+a {
+    -webkit-transition: all 150ms ease;
+	-moz-transition: all 150ms ease;
+	-ms-transition: all 150ms ease;
+	-o-transition: all 150ms ease;
+	transition: all 150ms ease; 
+	}
+    
+a:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; /* IE 8 */
+    filter: alpha(opacity=50); /* IE7 */
+    opacity: 0.6;
+    text-decoration: none;
 }
-.col{
-	padding: 0;
+
+.thumbnails li> .fff .caption { 
+    background:#fff !important; 
+    padding:10px
 }
-.row{
-	width: 100%;
-	margin: 0;
-	height: 100%;
+
+
+ul.thumbnails { 
+    margin-bottom: 0px;
 }
-.companyLogo{
-	margin-top: 5%;
-	max-width: 100%; 
-	padding: 10% 5%;
-	margin: 0;
+
+/* Thumbnail Box */
+.caption h4 {
+    color: #444;
 }
-.Arrow{
-	background-color: white;
-	z-index: 10;
+
+.caption p {  
+    color: #999;
 }
-.Our-Grads{
-	width: 100%;
-	padding: 0;
-	height: 400px;
+
+
+
+/* Carousel Control */
+.control-box {
+    text-align: right;
+    width: 100%;
 }
+.carousel-control{
+    background: #666;
+    border: 0px;
+    border-radius: 0px;
+    display: inline-block;
+    font-size: 34px;
+    font-weight: 200;
+    line-height: 18px;
+    opacity: 0.5;
+    padding: 4px 10px 0px;
+    position: static;
+    height: 30px;
+    width: 15px;
+}
+
+
+
+/* Mobile Only */
+@media (max-width: 767px) {
+    .page-header, .control-box {
+        text-align: center;
+    } 
+}
+@media (max-width: 479px) {
+    .caption {
+        word-break: break-all;
+    }
+}
+
+
+li { list-style-type:none;}
+
+::selection { background: #ff5e99; color: #FFFFFF; text-shadow: 0; }
+::-moz-selection { background: #ff5e99; color: #FFFFFF; }
