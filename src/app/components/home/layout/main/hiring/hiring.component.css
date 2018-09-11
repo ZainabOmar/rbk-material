@@ -1,17 +1,97 @@
-.img {
-    max-width: 150px;
-}
-.container {
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
 .hiring {
     background: url("../../../../../../assets/RBK/aa.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 1% 0;
+    padding: 5%;
+}
+.img{
+    max-width: 120px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+.companySlide{
+    width: 100%;
+    padding: 3% 12%;
+}
+.Arrow{
+    width: 4.16%;
+}
+#LArrow{
+    background-image: url("../../../../../../assets/leftArrow.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 70%;
+    margin: 0;
+    padding: 0;
+    float:left;
+    background-position: center;
+    cursor: pointer;
+}
+#RArrow{
+    background-image: url("../../../../../../assets/rightArrow.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 70%;
+    margin: 0;
+    padding: 0;
+    float:right;
+    background-position: center;
+    cursor: pointer;
+}
+.col{
+    padding: 0;
+}
+.row{
+    width: 100%;
+    margin: 0;
+    height: 100%;
+}
+.companyLogo{
+    margin-top: 5%;
+    max-width: 100%; 
+    padding: 10% 5%;
+    margin: 0;
+}
+.Arrow{
+    background-color: white;
+    z-index: 10;
+}
+
+@media screen and (max-width: 600px) {
+    #GradsSlide{
+        width: 100% !important;
+        height: 100% !important;
+        border-left: 0 !important;
+        border-top: 6px solid white !important;
+        padding: 10% 10% 5% 10% !important;
+    }
+    .companySlide{
+        padding: 3% 0 !important;
+    }
+}
+
+#GradsSlide{
+    background-color: #1e3f49;
+    border-left: 6px solid white;
+    width: 40%;
+    padding: 4% 4% 2% 4%;
+    position: relative;
+}
+#GradsSlide:before {
+  content: '';
+  position: absolute;
+  bottom: 0; right: 0;
+  border-bottom: 80px solid #b41a83;
+  border-left: 80px solid #1e3f49;
+  width: 0;
 }
