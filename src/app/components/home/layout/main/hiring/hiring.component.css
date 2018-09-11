@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
 .hiring {
     background: url("../../../../../../assets/RBK/aa.jpg");
     background-attachment: fixed;
@@ -7,45 +11,29 @@
 }
 .img{
     max-width: 120px;
+    height: 120px;
 }
 .container {
     display: flex;
     justify-content: center;
     align-content: center;
 }
-*{
-    box-sizing: border-box;
-    font-family: 'Montserrat';
-}
 .companySlide{
     width: 100%;
     padding: 3% 12%;
-}
-.Arrow{
-    width: 4.16%;
+    overflow: auto;
+    overflow-x: hidden;
 }
 #LArrow{
-    background-image: url("../../../../../../assets/leftArrow.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 70%;
-    margin: 0;
-    padding: 0;
     float:left;
-    background-position: center;
+    height: 10%;
+    width: 10%;
     cursor: pointer;
 }
 #RArrow{
-    background-image: url("../../../../../../assets/rightArrow.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 70%;
-    margin: 0;
-    padding: 0;
     float:right;
-    background-position: center;
+    height: 10%;
+    width: 10%;
     cursor: pointer;
 }
 .col{
@@ -61,10 +49,6 @@
     max-width: 100%; 
     padding: 10% 5%;
     margin: 0;
-}
-.Arrow{
-    background-color: white;
-    z-index: 10;
 }
 
 @media screen and (max-width: 600px) {
