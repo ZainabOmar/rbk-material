@@ -1,75 +1,78 @@
 *{
-    box-sizing: border-box;
-    font-family: 'Montserrat';
+  box-sizing: border-box;
+  font-family: 'Montserrat';
 }
 .hiring {
-    background: url("../../../../../../assets/RBK/aa.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 5%;
+  background: url("../../../../../../assets/RBK/aa.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: white;
+  padding: 5%;
 }
 .img{
-    max-width: 120px;
-    height: 120px;
+  width: 50px;
+  height: 50px;
 }
 .container {
-    display: flex;
-    justify-content: center;
-    align-content: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 .companySlide{
-    width: 100%;
-    padding: 3% 12%;
-    overflow: auto;
-    overflow-x: hidden;
+  width: 100%;
+  padding-left: 5%;
+  overflow: auto;
+  overflow-x: hidden;
+  /*justify-content: center;
+  align-content: center;*/
 }
 #LArrow{
-    float:left;
-    height: 10%;
-    width: 10%;
-    cursor: pointer;
+  float:left;
+  height: 10%;
+  width: 10%;
+  cursor: pointer;
 }
 #RArrow{
-    float:right;
-    height: 10%;
-    width: 10%;
-    cursor: pointer;
+  float:right;
+  height: 10%;
+  width: 10%;
+  cursor: pointer;
 }
 .col{
-    padding: 0;
+  /*padding: 0;*/
 }
 .row{
-    width: 100%;
-    margin: 0;
-    height: 100%;
+  width: 100%;
+  /*margin: 0;*/
+  height: 100%;
 }
 .companyLogo{
-    margin-top: 5%;
-    max-width: 100%; 
-    padding: 10% 5%;
-    margin: 0;
+  margin: 5%;
+  max-width: 100%; 
+  padding: 10% 10%;
+  /*margin: 0;*/
 }
 
 @media screen and (max-width: 600px) {
-    #GradsSlide{
-        width: 100% !important;
-        height: 100% !important;
-        border-left: 0 !important;
-        border-top: 6px solid white !important;
-        padding: 10% 10% 5% 10% !important;
-    }
-    .companySlide{
-        padding: 3% 0 !important;
-    }
+  #GradsSlide{
+    width: 100% !important;
+    height: 100% !important;
+    border-left: 0 !important;
+    border-top: 6px solid white !important;
+    padding: 10% 10% 5% 10% !important;
+  }
+  .companySlide{
+    padding: 3% 0 !important;
+  }
 }
 
 #GradsSlide{
-    background-color: #1e3f49;
-    border-left: 6px solid white;
-    width: 40%;
-    padding: 4% 4% 2% 4%;
-    position: relative;
+  background-color: #1e3f49;
+  border-left: 6px solid white;
+  width: 40%;
+  padding: 4% 4% 2% 4%;
+  position: relative;
 }
 #GradsSlide:before {
   content: '';
