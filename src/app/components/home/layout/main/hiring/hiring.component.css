@@ -1,57 +1,55 @@
 *{
   box-sizing: border-box;
-  font-family: 'Montserrat';
 }
-.hiring {
-  background: url("../../../../../../assets/RBK/aa.jpg");
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: white;
-  padding: 5%;
-}
-.img{
-  width: 50px;
-  height: 50px;
-}
-.container {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
+
 .companySlide{
   width: 100%;
-  padding-left: 5%;
-  overflow: auto;
-  overflow-x: hidden;
-  /*justify-content: center;
-  align-content: center;*/
+  padding: 3% 12%;
+}
+.Arrow{
+  width: 4.16%;
 }
 #LArrow{
+  background-image: url("../../../../../../assets/leftArrow.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 70%;
+  margin: 0;
+  padding: 0;
   float:left;
-  height: 10%;
-  width: 10%;
+  background-position: center;
   cursor: pointer;
 }
 #RArrow{
+  background-image: url("../../../../../../assets/rightArrow.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 70%;
+  margin: 0;
+  padding: 0;
   float:right;
-  height: 10%;
-  width: 10%;
+  background-position: center;
   cursor: pointer;
 }
 .col{
-  /*padding: 0;*/
+  padding: 0;
 }
 .row{
   width: 100%;
-  /*margin: 0;*/
+  margin: 0;
   height: 100%;
 }
 .companyLogo{
-  margin: 5%;
+  margin-top: 5%;
   max-width: 100%; 
-  padding: 10% 10%;
-  /*margin: 0;*/
+  padding: 10% 5%;
+  margin: 0;
+}
+.Arrow{
+  background-color: white;
+  z-index: 10;
 }
 
 @media screen and (max-width: 600px) {
